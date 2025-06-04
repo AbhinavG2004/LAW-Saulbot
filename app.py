@@ -12,7 +12,7 @@ from langchain.chains import ConversationalRetrievalChain
 from dotenv import load_dotenv
 
 # ✅ MUST be first Streamlit command
-st.set_page_config(page_title="Saul Botman", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="LAWGPT", layout="wide", initial_sidebar_state="collapsed")
 
 # Load environment variables
 load_dotenv()
